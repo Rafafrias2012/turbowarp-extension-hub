@@ -16,3 +16,4 @@ class helpfulBlocks {
     return true
   };
 }
+Scratch.extensions.register(new helpfulBlocks());
