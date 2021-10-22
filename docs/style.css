@@ -1,0 +1,16 @@
+html {
+  --main-color: #9cff7a;
+}
+
+a {
+  color: var(--main-color);
+}
+
+#topbar {
+  height: 50px;
+  width: 100%;
+  color: var(--main-color);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
