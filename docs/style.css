@@ -10,8 +10,12 @@ a {
   height: 50px;
   width: 100%;
   background-color: var(--main-color);
-  color: white;
   position: fixed;
   left: 0;
   top: 0;
 }
+#topbar-text {
+   line-height: 50px;
+   color: white;
+}
+
