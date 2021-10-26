@@ -32,6 +32,6 @@ class helpfulBlocks {
   };
   isalwaystrue(){return true};
   isalwaysfalse(){return false};
-  xorgate(args) {return (((args.ONE || args.TWO) && (!(args.ONE && args.TWO))));
+  xorgate(args) {return (((args.ONE || args.TWO) && (!(args.ONE && args.TWO))))};
 }
 Scratch.extensions.register(new helpfulBlocks());
