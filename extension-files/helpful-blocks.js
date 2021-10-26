@@ -44,6 +44,7 @@ class helpfulBlocks {
             INPUT: {type: Scratch.ArgumentType.STRING}
           }
         }
+        }
       ]
     }
   };
