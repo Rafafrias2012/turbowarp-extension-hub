@@ -52,7 +52,7 @@ class helpfulBlocks {
   xorgate(args) {return (((args.ONE || args.TWO) && (!(args.ONE && args.TWO))));};
   strictlyequal(args) {return (args.ONE === args.TWO);};
   toBool(args) {
-    if args.INPUT {
+    if (args.INPUT) {
       return true;
     } else {
       return false;
