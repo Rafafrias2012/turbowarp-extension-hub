@@ -44,19 +44,18 @@ class helpfulBlocks {
             INPUT: {type: Scratch.ArgumentType.STRING}
           }
         }
-        }
       ]
     }
   };
-  isalwaystrue(){return true};
-  isalwaysfalse(){return false};
-  xorgate(args) {return (((args.ONE || args.TWO) && (!(args.ONE && args.TWO))))};
-  strictlyequal(args) {return (args.ONE === args.TWO)};
+  isalwaystrue(){return true;};
+  isalwaysfalse(){return false;};
+  xorgate(args) {return (((args.ONE || args.TWO) && (!(args.ONE && args.TWO))));};
+  strictlyequal(args) {return (args.ONE === args.TWO);};
   toBool(args) {
     if args.INPUT {
-      return true
+      return true;
     } else {
-      return false
+      return false;
     };
   };
 }
