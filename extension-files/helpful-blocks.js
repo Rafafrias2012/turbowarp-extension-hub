@@ -6,17 +6,17 @@ class helpfulBlocks {
       blocks: [
         {
           opcode: 'isalwaystrue',
-          blocktype: Scratch.blockType.BOOLEAN,
+          blocktype: Scratch.BlockType.BOOLEAN,
           text: 'true'
         },
         {
           opcode: 'isalwaysfalse',
-          blocktype: Scratch.blockType.BOOLEAN,
+          blocktype: Scratch.BlockType.BOOLEAN,
           text: 'false'
         },
         {
           opcode: 'xorgate',
-          blocktype: Scratch.blockType.BOOLEAN,
+          blocktype: Scratch.BlockType.BOOLEAN,
           text: '[ONE] xor [TWO]',
           arguments: {
             ONE: {
